@@ -17,6 +17,12 @@
 		656CD60327A9B3720009DDE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD5D927A9B36F0009DDE9 /* ContentView.swift */; };
 		656CD60427A9B3720009DDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656CD5DA27A9B3720009DDE9 /* Assets.xcassets */; };
 		656CD60527A9B3720009DDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656CD5DA27A9B3720009DDE9 /* Assets.xcassets */; };
+		656CD61527A9B5140009DDE9 /* FiniteSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD61427A9B5140009DDE9 /* FiniteSum.swift */; };
+		656CD61627A9B5140009DDE9 /* FiniteSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD61427A9B5140009DDE9 /* FiniteSum.swift */; };
+		656CD61827A9F5A50009DDE9 /* FiniteSum.swift in Frameworks */ = {isa = PBXBuildFile; fileRef = 656CD61427A9B5140009DDE9 /* FiniteSum.swift */; };
+		656CD61B27A9F5BF0009DDE9 /* FiniteSum.swift in Frameworks */ = {isa = PBXBuildFile; fileRef = 656CD61427A9B5140009DDE9 /* FiniteSum.swift */; };
+		656CD61C27A9F6B30009DDE9 /* FiniteSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD61427A9B5140009DDE9 /* FiniteSum.swift */; };
+		656CD61D27A9F6BA0009DDE9 /* FiniteSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD61427A9B5140009DDE9 /* FiniteSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,8 @@
 		656CD5F827A9B3720009DDE9 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		656CD5FC27A9B3720009DDE9 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		656CD5FE27A9B3720009DDE9 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		656CD61427A9B5140009DDE9 /* FiniteSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiniteSum.swift; sourceTree = "<group>"; };
+		656CD61927A9F5B20009DDE9 /* Tests iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Tests iOS"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656CD61827A9F5A50009DDE9 /* FiniteSum.swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656CD61B27A9F5BF0009DDE9 /* FiniteSum.swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +101,7 @@
 				656CD5EF27A9B3720009DDE9 /* Tests iOS */,
 				656CD5FB27A9B3720009DDE9 /* Tests macOS */,
 				656CD5E027A9B3720009DDE9 /* Products */,
+				656CD61727A9F5A50009DDE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +110,7 @@
 			children = (
 				656CD5D827A9B36F0009DDE9 /* Finite_Sum_ProblemApp.swift */,
 				656CD5D927A9B36F0009DDE9 /* ContentView.swift */,
+				656CD61427A9B5140009DDE9 /* FiniteSum.swift */,
 				656CD5DA27A9B3720009DDE9 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -139,6 +151,14 @@
 				656CD5FE27A9B3720009DDE9 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		656CD61727A9F5A50009DDE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				656CD61927A9F5B20009DDE9 /* Tests iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +321,7 @@
 			files = (
 				656CD60227A9B3720009DDE9 /* ContentView.swift in Sources */,
 				656CD60027A9B3720009DDE9 /* Finite_Sum_ProblemApp.swift in Sources */,
+				656CD61527A9B5140009DDE9 /* FiniteSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +331,7 @@
 			files = (
 				656CD60327A9B3720009DDE9 /* ContentView.swift in Sources */,
 				656CD60127A9B3720009DDE9 /* Finite_Sum_ProblemApp.swift in Sources */,
+				656CD61627A9B5140009DDE9 /* FiniteSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656CD61C27A9F6B30009DDE9 /* FiniteSum.swift in Sources */,
 				656CD5F327A9B3720009DDE9 /* Tests_iOSLaunchTests.swift in Sources */,
 				656CD5F127A9B3720009DDE9 /* Tests_iOS.swift in Sources */,
 			);
@@ -326,6 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656CD61D27A9F6BA0009DDE9 /* FiniteSum.swift in Sources */,
 				656CD5FF27A9B3720009DDE9 /* Tests_macOSLaunchTests.swift in Sources */,
 				656CD5FD27A9B3720009DDE9 /* Tests_macOS.swift in Sources */,
 			);
